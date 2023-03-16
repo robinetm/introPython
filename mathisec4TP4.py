@@ -15,19 +15,20 @@ class Cercle():
         self.color = (c)
 
     def draw(self):
-        #arcade.draw_circle_filled(center_x, center_y, rayon, color)
+        #dessine un cercle avec les variable r,x,c,y
         arcade.draw_circle_filled(self.centre_x, self.centre_y, self.rayon, self.color)
 
 
 class MyGame(arcade.Window):
     def __init__(self):
+        #fait apparaitre l'écran
         super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, "Exercice #1")
         self.liste_cercles = []
 
 
 
     def setup(self):
-        # remplir la liste avec 20 objets de type Cercle
+        # remplie la liste avec 20 objets de type Cercle
         for _ in range(20):
             rayon = random.randint(10, 50)
             center_x = random.randint(0 + rayon, SCREEN_WIDTH - rayon)
