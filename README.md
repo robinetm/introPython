@@ -1,4 +1,2 @@
-# Mon projet Python
-## Comment lancer le jeu
-Pour 
-## Comment jouer
+# pip install arcade
+# pip install
