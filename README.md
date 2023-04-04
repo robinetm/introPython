@@ -1,2 +1,4 @@
-# pip install arcade
-# pip install
+# installation librairies
+pip install arcade 
+
+pip install
