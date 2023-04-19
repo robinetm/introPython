@@ -4,7 +4,7 @@ pip install arcade
 pip install
 
 
-# case a cocher token
+# case à cocher création token
 repo
 
 read:org
